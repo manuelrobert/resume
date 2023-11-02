@@ -1,4 +1,4 @@
-# React Libin Mathew Resume - Responsive and customizable CV / Resume
+# React Resume for Libin Mathew - Responsive and customizable CV / Resume
 
 - Light / Dark mode 🌗
 
