@@ -1,34 +1,36 @@
 export const Data = {
   profile: {
-    name: "Libin Mathew",
-    ocupation: "Cloud Developer",
+    name: "Manuel Robert",
+    ocupation: "Software Engineer",
     location: "Thiruvananthapuram, India",
-    email: "libinmathewancheril@gmail.com",
+    email: "manuelrobertk@gmail.com",
     telephone: "",
     image: "images/456322.webp",
   },
   aboutMe: {
     label: "Perfil",
     description:
-      "My career objective is to pursue challenging opportunities in a dynamic and forward-thinking organization, where I can effectively apply my skills and experience to drive innovation, foster growth, and make a substantial impact on the company's success. I am dedicated to continuously enhancing my abilities and collaborating with a diverse team to achieve both personal and organizational goals, while remaining adaptable in a rapidly evolving professional landscape.",
+      "A proactive individual eager to thrive in the rapidly evolving landscape of\
+      the Information Technology industry, seeking an opportunity to contribute\
+      to the development of high-quality products while staying abreast of\
+      current trends and advancements.",
   },
   skills: {
     technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
-      "Android Studio",
-      "ReactJS",
-      "Java",
+      "Python",
+      "Flask",
       "NodeJS",
-      "C#, Python, GoLang",
-      "CDK, Terraform",
+      "JavaScript",
+      "ExpressJS, Angular, ReactJS",
       "AWS, Azure",
-      "SQL, DynamoDB, MongoDB, PLSQL",
-      "Git, Bitbucket, CICD",
-      "DevOps, K8S, Jenkins",
-      "Docker, Podman",
-      "GitOps, ArgoCD",
+      "DynamoDB, MongoDB, MySQL",
+      "Git, Bitbucket, GitLab",
+      "Jenkins, Bamboo",
+      "Docker",
       "Shell Scripting",
+      "Backstage"
     ],
     softSkills: [
       "Teamwork",
@@ -45,21 +47,21 @@ export const Data = {
     label: "SOCIAL",
     social: [
       {
-        label: "Libin Mathew",
+        label: "Manuel Robert",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/libinmath3w",
+        url: "https://www.linkedin.com/in/manuel-robert/",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Libin Mathew",
+        label: "Manuel Robert",
         name: "github",
-        url: "https://github.com/libinmath3w",
+        url: "https://github.com/manuelrobert",
         className: "bxl-github",
       },
       {
-        label: "Libin Mathew",
+        label: "Manuel Robert",
         name: "twiiter",
-        url: "https://twitter.com/libinmathew009",
+        url: "https://twitter.com/manuelrobertk",
         className: "bxl-twitter",
       },
     ],
@@ -68,70 +70,74 @@ export const Data = {
     works: [
       {
         title: "Software Engineer",
-        period: "June 2022 - Present",
+        period: "September 2022 - Present",
         company: "Quest Global",
         description: [
-          "Used jenkins to automate build and deployment that reduced human error and sped up production processes",
-          "Successfully created and maintained automated CI/CD pipelines for code deployment using jenkins while automating the deployment process, resulting in the elimination of 70% of manual work and escalation of work efficiency",
-          `Managed local deployments in kubernetes in EKS and Fargate, creating local cluster and applications deployment into containers/kubes`,
-          `Was an integral part of the team that improved and monitored cloud infrastructure on aws and jenkins.`,
-          `Implemented Terraform, Docker, kubernetes and other automation tools for infrastructure management.`,
-          `Experiance in Database (MYSQL, PLSQL, NoSQL) tools`,
-          `Experiance in Argocd and Argo rollouts for kubernetes deployments using helm chart and kustomize`,
-          `Experienced Node.js Developer proficient in server-side development, database integration, API design, security, and performance optimization. Skilled in version control, testing, and CI/CD. Strong problem-solving abilities and up-to-date with industry best practices.`,
-
+          "Successfully conceptualized and executed proof of concept tasks to evaluate the feasibility and potential of new technologies and solutions for cloud migration.",
+          "Conducted an extensive and in-depth research and analysis on Identity and Access Management (IAM) tools such as Keycloak, with a focus on their integration with AWS Single Sign-On (AWS SSO) and Azure Active Directory Single Sign-On (Azure AD SSO).",
+          "Evaluating the feasibility of implementing Active Directory in Amazon Workspaces Virtual Desktop Infrastructure (VDI) while incorporating Single Sign-On.",
+          "Conducting an extensive investigation into the utilization of Backstage, an open platform designed for building developer portals, specifically with the integration of SVN (Apache Subversion).",
+          "Received On The Fly award for the exemplary project delivery and valuable contributions during the month of December 2022.",
+          "Honored as Employee of the Quarter for the commendable contributions during February 2023.",
         ],
       },
       {
-        title: "Junior Software Engineer",
-        period: "AUG. 2019 - Mar. 2022",
-        company: "Nuovosys Technologies",
+        title: "Full Stack Developer",
+        period: "September 2021 - September 2022",
+        company: "Exlygenze Senseworks PVT LTD",
         description: [
-          "Developed native Android applications and frameworks using Kotlin and Java.",
-          "Defined and implemented robust app architectures and complex user interfaces.",
-          `Applied expert knowledge of Android system frameworks to solve novel problems.`,
-          `Collaborated with designers, engineers, and product managers to build great experiences.`,
-          `Experiance in server monitoring systems like prometheus and grafana.`
+          "Collaborated with a cross-functional team to develop and enhance a responsive HR Management application using Angular, Flask and MySQL..",
+          "Added new functionalities, such as Single Sign-On (SSO) using Firebase Authentication and Azure AD, while seamlessly integrating various third-party services.",
+          "Took charge of overseeing and evaluating code quality, as well as ensuring the smooth operation of the database, which involved tasks like migration and seeding. Leveraged Flask Seeders and Alembic to accomplish these responsibilities effectively.",
+          "Honored as Employee of the Month for exceptional performance, consistent dedication, and contributions to project success during the month of November 2021.",
+        ],
+      },
+      {
+        title: "Freelance Developer",
+        period: "2019 - 2021",
+        description: [
+          "I created a React application for an international client to assess and enhance cloud security, compliance, and incident readiness.",
+          "I played a key role in conceiving, designing, developing, and successfully launching Campulse, a tailored digital platform for educational institutions, which has been implemented at Nirmala College in Muvattupuzha, Kerala.",
         ],
       },
     ],
     academic: [
       {
         career: "Master of Computer Applications",
-        date: "2019",
-        institution: "St. Joseph's College of Engineering and Technology, Palai",
+        date: "2021",
+        institution: "College of Engineering Trivandrum",
       },
       {
         career: "Bachelor of Computer Applications",
-        date: "2016",
-        institution: "ST. JOSEPH'S ACADEMY OF HIGHER EDUCATION AND RESEARCH, MOOLAMATTOM",
+        date: "2019",
+        institution: "Nirmala College, Muvattupuzha",
       },
     ],
-    proyects: [
-      {
-        name: "Hand Gesture Recognition and object Recognition using Tensorflow",
-        company: "",
-        period: "",
-        description: [
-          "The app help you to detect hand guesture recognization",
-        ],
-      },
-      {
-        name: "Automatic Door opening system IOT project",
-        company: "",
-        period: "",
-        description: [
-          "I completed automatic door opening and closing system for cats and dogs using machine learning. This project completed for a canadian university",
-        ],
-      },
-      {
-        name: "Green pool android application",
-        company: "",
-        period: "",
-        description: [
-          "An android project that developed for my university mini project.Car pooling Android application with PHP backend",
-        ],
-      },
-    ],
+    // proyects: [
+    //   {
+    //     name: "Hand Gesture Recognition and object Recognition using Tensorflow",
+    //     company: "",
+    //     period: "",
+    //     description: [
+    //       "The app help you to detect hand guesture recognization",
+    //     ],
+    //   },
+    //   {
+    //     name: "Automatic Door opening system IOT project",
+    //     company: "",
+    //     period: "",
+    //     description: [
+    //       "I completed automatic door opening and closing system for cats and dogs using machine learning. This project completed for a canadian university",
+    //     ],
+    //   },
+    //   {
+    //     name: "Green pool android application",
+    //     company: "",
+    //     period: "",
+    //     description: [
+    //       "An android project that developed for my university mini project.Car pooling Android application with PHP backend",
+    //     ],
+    //   },
+    // ],
   },
 };

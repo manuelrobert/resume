@@ -41,7 +41,7 @@ export const Resume = () => {
           <div className="resume__right">
             <Works {...experience} />
             <Academic {...experience} />
-            <Proyects {...experience} />
+            {/* <Proyects {...experience} /> */}
           </div>
         </div>
       </main>
